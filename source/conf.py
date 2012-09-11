@@ -20,12 +20,14 @@ import sys, os
 
 # -- General configuration -----------------------------------------------------
 
+primary_domain = 'php'
+
 # If your documentation needs a minimal Sphinx version, state it here.
 #needs_sphinx = '1.0'
 
 # Add any Sphinx extension module names here, as strings. They can be extensions
 # coming with Sphinx (named 'sphinx.ext.*') or your custom ones.
-extensions = ['sphinx.ext.todo']
+extensions = ['sphinx.ext.todo', 'sphinxcontrib.phpdomain']
 
 
 # Add any paths that contain templates here, relative to this directory.
